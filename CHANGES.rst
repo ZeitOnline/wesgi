@@ -1,6 +1,22 @@
 CHANGES
 =======
 
+0.12 (2016-10-06)
+----------------
+
+Fixes
++++++
+
+- fix dictionary changed size during iteration errors on Python 3
+
+0.11 (2016-05-25)
+----------------
+
+Features
+++++++++
+
+- Configuration via paste, rescued from missing 0.9 release.
+
 0.10 (2016-05-25)
 ----------------
 
