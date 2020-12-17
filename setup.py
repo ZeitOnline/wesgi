@@ -11,7 +11,7 @@ _changes = os.path.join(_here, 'CHANGES.rst')
 _changes = open(_changes, 'r').read()
 
 setup(name='wesgi',
-      version='0.12',
+      version='0.12+tests',
       description='A WSGI middleware which processes ESI directives',
       url="http://pypi.python.org/pypi/wesgi",
       long_description='%s\n%s' % (_readme, _changes),
@@ -35,8 +35,7 @@ setup(name='wesgi',
       author_email="brian@vanguardistas.net",
       packages=find_packages(),
       install_requires=["WebOb",
-                        "httplib2",
-                        "mock"],
+                        "httplib2"],
       include_package_data=True,
       zip_safe=False,
       test_suite="wesgi.tests",
